@@ -1,4 +1,4 @@
-<?php
+<?html
 // Ensure error reporting is enabled to debug issues
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -335,6 +335,7 @@ function payNow() {
         window.location.href = redirect_url;
     }
 </script>
+
 
 
 
